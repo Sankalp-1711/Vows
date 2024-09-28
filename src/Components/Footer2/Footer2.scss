@@ -1,0 +1,50 @@
+// @font-face {
+//     font-family: 'Gallient';
+//     src: url('/src/components/Footer2/Fonts/Gallient.ttf') format('truetype'); // Use absolute path
+//   }
+
+//   .footer2 {
+//     background-color: #000; // Assuming the background is black
+//     color: #fff; // Assuming the text color is white
+//     padding: 2px;
+//     text-align: center;
+  
+//     h1 {
+//       font-family: 'Gallient', serif; // Use the Gallient font
+//       font-size: 180px; // Adjust size as needed
+//       font-weight: 250; // Make the letters thinner
+//       margin-bottom: 10px;
+//     }
+//   }
+  
+
+@font-face {
+  font-family: 'Gallient';
+  src: url('/src/components/Footer2/Fonts/Gallient.ttf') format('truetype');
+}
+
+.footer2 {
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Gallient', serif;
+  font-size: 5rem;
+  font-weight: 250;
+  margin-bottom: 10px;
+}
+
+// @media (max-width: 768px) {
+//   .title {
+//     font-size: 120px;
+//   }
+// }
+
+// @media (max-width: 480px) {
+//   .title {
+//     font-size: 80px;
+//   }
+// }

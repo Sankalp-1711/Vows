@@ -1,0 +1,493 @@
+// // body {
+// //     font-family: 'Urbanist', sans-serif;
+// //   }
+  
+
+// // .gallery-container {
+// //     padding: 20px;
+// //     display: flex;
+// //     flex-direction: column;
+// //     align-items: center;
+// //   }
+  
+// //   .grid {
+// //     display: grid;
+// //     grid-template-columns: repeat(4, 1fr);  // Force exactly 4 columns per row
+
+// //    // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+// //     gap: 20px;
+// //     max-width: 1200px;
+// //     width: 100%;
+// //   }
+  
+// //   .card {
+// //     background-color: #fff;
+// //     border-radius: 10px;
+// //     overflow: hidden;
+// //     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+// //     transition: transform 0.3s;
+  
+// //     img {
+// //       width: 100%;
+// //       height: 300px;
+// //       object-fit: cover;
+// //     }
+// //     .couture {
+// //         font-family: 'Urbanist', sans-serif;
+// //         font-weight: bold;
+// //         font-size: 0.8rem;
+// //         color: #333;
+// //         text-align: center;
+// //         margin: 10px 0;
+// //         color: #888;
+// //       }
+// //     .details {
+// //       padding: 10px;
+// //       text-align: center;
+  
+// //       h3 {
+// //         font-family: 'Urbanist', sans-serif;
+// //         font-size: 1.2rem;
+// //         margin-bottom: 5px;
+// //       }
+  
+// //       p {
+// //         color: #888;
+// //       }
+// //     }
+  
+// //     &:hover {
+// //       transform: translateY(-5px);
+// //     }
+// //   }
+  
+// //   .pagination {
+// //     margin-top: 20px;
+// //     font-size: 1.2rem;
+  
+// //     span {
+// //       cursor: pointer;
+// //       padding: 0 10px;
+// //     }
+  
+// //     span:hover {
+// //       color: #333;
+// //     }
+// //   }
+  
+
+// body {
+//     font-family: 'Urbanist', sans-serif;
+//   }
+  
+//   .gallery-container {
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+  
+  
+//   .grid {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);  // Force exactly 4 columns per row
+//     gap: 20px;
+//     max-width: 1200px;
+//     width: 100%;
+//   }
+  
+//   .card {
+//     background-color: #fff;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s;
+  
+//     img {
+//       width: 100%;
+//       height: 385px;
+//       object-fit: cover;
+//     }
+  
+//     .couture {
+//       font-family: 'Urbanist', sans-serif;
+//       font-weight: bold;
+//       font-size: 0.7rem;
+//       color: #888;
+//       text-align: center;
+//       margin: 10px 0;
+//     }
+  
+//     .details {
+//       padding: 10px;
+//       text-align: center;
+  
+//       h4 {
+//         font-family: 'Urbanist', sans-serif;
+//         font-size: 1.05rem;
+//         font-weight: 300;
+//         margin-bottom: 5px;
+//       }
+  
+//       p {
+//         color: #888;
+//         font-size: 0.8rem;
+//         font-weight: 300;
+//       }
+//     }
+  
+//     // &:hover {
+//     //   transform: translateY(-5px);
+
+//     // }
+//     &:hover {
+//         transform: translateY(-5px);
+//         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  // Slightly increase the shadow on hover, no border
+//         outline: none;  // Ensure no outline appears
+//     }
+//   }
+  
+// //   .pagination {
+// //     margin-top: 20px;
+// //     font-size: 1.2rem;
+// //     display: flex;
+// //     align-items: center;
+    
+// //     span {
+// //       cursor: pointer;
+// //       padding: 0 10px;
+// //       font-size: 1rem;
+// //     }
+  
+// //     span:hover {
+// //       color: #333;
+// //     }
+  
+// //     .active {
+// //       font-weight: bold;
+// //       text-decoration: underline;
+// //     }
+// //   }
+  
+// .pagination {
+//     margin-top: 20px;
+//     font-size: 1.2rem;
+//     display: flex;
+//     align-items: center;
+  
+//     span {
+//       cursor: pointer;
+//       padding: 0 10px;
+//       font-size: 1rem;
+//     }
+  
+//     span:hover {
+//       color: #333;
+//     }
+  
+//     .active {
+//       font-weight: bold;
+//       text-decoration: underline;
+//     }
+  
+//     .bar {
+//       width: 100%; // Adjust as needed
+//       height: 4px; // Height of the bar
+//       background-color: #333; // Color of the bar
+//       margin-left: 10px; // Space between text and bar
+//       flex-grow: 1; // Allow the bar to take remaining space
+//       margin-right: 10px; // Add space between bar and last pagination number
+//     }
+//   }
+  
+
+// body {
+//     font-family: 'Urbanist', sans-serif;
+//   }
+  
+
+// .gallery-container {
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+  
+//   .grid {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);  // Force exactly 4 columns per row
+
+//    // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+//     gap: 20px;
+//     max-width: 1200px;
+//     width: 100%;
+//   }
+  
+//   .card {
+//     background-color: #fff;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s;
+  
+//     img {
+//       width: 100%;
+//       height: 300px;
+//       object-fit: cover;
+//     }
+//     .couture {
+//         font-family: 'Urbanist', sans-serif;
+//         font-weight: bold;
+//         font-size: 0.8rem;
+//         color: #333;
+//         text-align: center;
+//         margin: 10px 0;
+//         color: #888;
+//       }
+//     .details {
+//       padding: 10px;
+//       text-align: center;
+  
+//       h3 {
+//         font-family: 'Urbanist', sans-serif;
+//         font-size: 1.2rem;
+//         margin-bottom: 5px;
+//       }
+  
+//       p {
+//         color: #888;
+//       }
+//     }
+  
+//     &:hover {
+//       transform: translateY(-5px);
+//     }
+//   }
+  
+//   .pagination {
+//     margin-top: 20px;
+//     font-size: 1.2rem;
+  
+//     span {
+//       cursor: pointer;
+//       padding: 0 10px;
+//     }
+  
+//     span:hover {
+//       color: #333;
+//     }
+//   }
+  
+
+// body {
+//     font-family: 'Urbanist', sans-serif;
+//   }
+  
+//   .gallery-container {
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+  
+  
+//   .grid {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);  // Force exactly 4 columns per row
+//     gap: 3rem;
+//     max-width: 95%;
+//     margin: 0 auto;
+//   }
+  
+//   .card {
+//     background-color: #fff;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s;
+  
+//     img {
+//       width: 100%;
+//       height: 385px;
+//       object-fit: cover;
+//     }
+  
+//     .couture {
+//       font-family: 'Urbanist', sans-serif;
+//       font-weight: bold;
+//       font-size: 0.7rem;
+//       color: #888;
+//       text-align: center;
+//       margin: 10px 0;
+//     }
+  
+//     .details {
+//       padding: 10px;
+//       text-align: center;
+  
+//       h4 {
+//         font-family: 'Urbanist', sans-serif;
+//         font-size: 1.05rem;
+//         font-weight: 300;
+//         margin-bottom: 5px;
+//       }
+  
+//       p {
+//         color: #888;
+//         font-size: 0.8rem;
+//         font-weight: 300;
+//       }
+//     }
+  
+//     // &:hover {
+//     //   transform: translateY(-5px);
+
+//     // }
+//     &:hover {
+//         transform: translateY(-5px);
+//         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  // Slightly increase the shadow on hover, no border
+//         outline: none;  // Ensure no outline appears
+//     }
+//   }
+  
+  
+body {
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+  .gallery-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    position: relative; // Add for icon positioning
+    .extra{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        // max-width: 90%;
+        // margin: 0 auto;
+        margin: 1.5rem;
+        .filter-extra{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    }
+  }
+  
+  .view-options {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  
+    .icon {
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #888;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: #333;
+      }
+  
+      &.active {
+        color: #333;
+      }
+    }
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    max-width: 95%;
+    margin: 0 auto;
+  
+    &.list-view {
+      grid-template-columns: repeat(1, 1fr); // Change to single column in list view
+    }
+
+  }
+  @media screen and (max-width:900px) {
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+
+    }
+    
+
+  }
+  @media screen and (max-width:700px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+
+    }
+    
+  }
+  @media screen and (max-width:500px) {
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+
+
+    }
+    
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  
+    img {
+      width: 100%;
+      height: 385px;
+      object-fit: cover;
+    }
+  
+    .couture {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: bold;
+      font-size: 0.7rem;
+      color: #888;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .details {
+      padding: 10px;
+      text-align: center;
+  
+      h4 {
+        font-family: 'Urbanist', sans-serif;
+        font-size: 1.05rem;
+        font-weight: 300;
+        margin-bottom: 5px;
+      }
+  
+      p {
+        color: #888;
+        font-size: 0.8rem;
+        font-weight: 300;
+        text-decoration: underline; /* Adds underline */
+        text-decoration-color: #888; /* Matches underline color with text color */
+      }
+    }
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+  }
+  
